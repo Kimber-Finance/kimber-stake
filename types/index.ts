@@ -1,11 +1,11 @@
-import {SignerWithAddress} from '@nomiclabs/hardhat-ethers/dist/src/signers';
+import {SignerWithAddress} from '@nomiclabs/hardhat-ethers/signers';
 import {BigNumberish} from 'ethers';
 import {
   IncentivesController,
   InitializableAdminUpgradeabilityProxy,
   MockAToken,
   MockMintableERC20,
-  StakedKimber
+  StakedKimber,
 } from '../typechain';
 
 export enum ContractId {
